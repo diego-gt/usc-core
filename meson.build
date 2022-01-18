@@ -4,7 +4,7 @@ project(
 	version : '0.1',
 	default_options : [
 		'warning_level=3',
-		'cpp_std=c++17'
+		'cpp_std=c++20'
 	])
 
 # Headers that are meant to expose functionality that can be used by the consumers of the library
