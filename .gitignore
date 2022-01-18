@@ -1,6 +1,7 @@
 # ---> editor
 .vscode/
 .cache/
+.idea/
 tags
 # ---> C++
 # Build directories
