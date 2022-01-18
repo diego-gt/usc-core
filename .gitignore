@@ -1,5 +1,7 @@
-# ---> VS code
+# ---> editor
 .vscode/
+.cache/
+tags
 # ---> C++
 # Build directories
 build*/
