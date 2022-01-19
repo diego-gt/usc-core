@@ -1,5 +1,11 @@
 # usc-core
 
+# Dependencies:
+* GLFW3
+* GLM
+* Vulkan SDK
+* vcpkg
+
 # USC library
 Core library to be used in all USC projects, mainly ones regarding the Calvin system.
 
