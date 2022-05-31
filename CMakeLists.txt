@@ -70,5 +70,6 @@ if (CMAKE_SYSTEM_NAME STREQUAL "Windows")
     target_compile_options(usc_core PRIVATE /W4)
 elseif (CMAKE_SYSTEM_NAME STREQUAL "Linux")
     target_compile_options(usc_core PRIVATE -Wall -Wextra -Wpedantic)
-    set(CMAKE_CXX_FLAGS "-stdlib=libc++")
+# clang-only
+#    set(CMAKE_CXX_FLAGS "-stdlib=libc++")
 endif ()
